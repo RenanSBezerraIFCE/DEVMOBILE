@@ -5,7 +5,7 @@ export const style = StyleSheet.create({
         flex: 1
     },
     contain: {
-        padding:10
+        padding: 10
     },
     Shop: {
         padding: 10
@@ -18,7 +18,7 @@ export const style = StyleSheet.create({
         padding: 10
     },
     title: {
-        fontWeight : "bold",
+        fontWeight: "bold",
         fontSize: 28,
         color: "#363636",
         marginBottom: 5,
@@ -33,12 +33,12 @@ export const style = StyleSheet.create({
         fontSize: 18,
         textAlign: 'justify',
         marginTop: 15,
-        marginBottom:50
+        marginBottom: 50
     },
     Price: {
         fontSize: 24,
         width: 200,
-        color: '#B8860B'       
+        color: '#B8860B'
     },
     ImageProduct: {
         width: 350,
@@ -80,16 +80,25 @@ export const style = StyleSheet.create({
         marginTop: 5,
         marginLeft: '20%',
     },
-    AddCart:{
+    AddCart: {
         fontSize: 20,
         fontWeight: 'bold',
         color: "#191970",
         marginBottom: 20,
-        marginTop:5
+        marginTop: 5
     },
-    Product:{
-        borderBottomColor:'#191970',
-        borderBottomWidth:4,
-        marginBottom:10
+    Product: {
+        borderBottomColor: '#191970',
+        borderBottomWidth: 4,
+        marginBottom: 10
+    },
+    cadastre: {
+        backgroundColor: "#5244cf",
+        padding: 10,
+        color: 'white',
+        width: 200,
+        fontWeight: 'bold',
+        textAlign:"center",
+        marginLeft: 80
     }
 })

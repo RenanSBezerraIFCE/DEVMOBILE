@@ -40,18 +40,22 @@ const NewProduct = () => {
     const navigation = useNavigation();
     return (<View>
         <View style={style.NavBar}>
-            <TouchableOpacity onPress={() => navigation.navigate("Login")}>
-                <Icon name="arrow-left" size={30} color="white" style={style.Icon} />
-            </TouchableOpacity>
+                <TouchableOpacity onPress={() => navigation.navigate("Home")}>
+                    <Icon name="arrow-left" size={30} color="white" style={style.Icon} />
+                </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => navigation.navigate("Profile", user)}>
-                <Icon name="user" size={30} color="white" style={style.Icon2} />
-            </TouchableOpacity>
+                <TouchableOpacity onPress={() => navigation.navigate("Profile", user)}>
+                    <Icon name="user" size={30} color="white" style={style.Icon2} />
+                </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => navigation.navigate("NewUser")}>
-                <Icon name="user-plus" size={30} color="white" style={style.Icon2} />
-            </TouchableOpacity>
-        </View>
+                <TouchableOpacity onPress={() => navigation.navigate("NewProduct")}>
+                    <Icon name="plus" size={30} color="white" style={style.Icon2} />
+                </TouchableOpacity>
+
+                <TouchableOpacity onPress={() => navigation.navigate("NewUser")}>
+                    <Icon name="user-plus" size={30} color="white" style={style.Icon2} />
+                </TouchableOpacity>
+            </View>
         <View style={style.contain}>
             <Text style={style.title}>Cadastrar novo produto</Text>
             <Input placeholder='Nome do produto' textAlign='center' onChangeText={(e) => setProps("name", e)} />
@@ -64,7 +68,7 @@ const NewProduct = () => {
             <Input placeholder='Produtor do produto' textAlign='center' onChangeText={(e) => setProps("producer", e)} />
 
             <TouchableOpacity onPress={() => Cadastrar()}>
-                <Text>cadastrar usuario</Text>
+                <Text style={style.cadastre}>CADASTRAR USUÁRIO</Text>
             </TouchableOpacity>
         </View>
 

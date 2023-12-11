@@ -91,5 +91,14 @@ export const style = StyleSheet.create({
         borderBottomColor:'#191970',
         borderBottomWidth:4,
         marginBottom:10
+    },
+    cadastre: {
+        backgroundColor: "#5244cf",
+        padding: 10,
+        color: 'white',
+        width: 200,
+        fontWeight: 'bold',
+        textAlign:"center",
+        marginLeft: 80
     }
 })

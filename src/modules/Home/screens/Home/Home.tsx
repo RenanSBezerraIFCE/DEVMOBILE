@@ -5,6 +5,7 @@ import { useState } from 'react';
 import axios from 'axios'
 import { useNavigation } from '@react-navigation/native'
 import { style } from '../../styles/home.style'
+import Product1 from './Product/Product';
 
 const Home = (props) => {
 
@@ -49,11 +50,14 @@ const Home = (props) => {
                         <FlatList data={index} renderItem={({ item }) =>
 
                             <View>
+                                <TouchableOpacity onPress={() => navigation.navigate("Product", (item.id))}>
                                 <Image style={style.ImageProduct} source={{ uri: item.image }} />
+                                </TouchableOpacity>
+                                
 
                                 <Text style={style.Categoria}>{item.name} </Text>
                                 <Text style={style.Categoria}>{item.category} </Text>
-                                <Text style={style.NameProduct}>R$ {item.price}.00</Text>
+                                <Text style={style.NameProduct}>R$ {item.price}</Text>
                                 <Text style={style.Product}></Text>
                             </View>
                         } />

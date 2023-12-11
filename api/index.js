@@ -1,7 +1,9 @@
 const express = require("express")
+const server = express();
+
 const api = require('./api.json')
 const apiP = require('./products.json')
-const server = express();
+
 
 
 server.listen(5000, () => {

@@ -4,7 +4,7 @@ export const style = StyleSheet.create({
     NavBar: {
         justifyContent: 'space-between',
         flexDirection: "row",
-        backgroundColor: '#191970',
+        backgroundColor: '#5244cf',
         height: 65,
         padding: 10
     },
