@@ -1,0 +1,39 @@
+{
+    "Products": [
+        
+        {
+            "id" : "0",
+            "name" : "Shogun Raiden - Genshin Impact",
+            "price" : 1190.00,
+            "category" : "Figure Action",
+            "image" : "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ9HkG7P-1AcmH_n7K6K_xxotnDw8CRNucqwaZoakNf5auHqP67mBwEnYbOFT1Xfql5ik00SpcIQ8CLYSlrG3OVheSoonNmxYSE84ILN5AR&usqp=CAE",
+            "width" : "35cm",
+            "height" : "25cm",
+            "diameter" : "16cm",
+            "producer" : "Stradu Studios"
+        },
+        {
+            "id" : "1",
+            "name" : "Senhe - Genshin Impact",
+            "price" : 699.99,
+            "category" : "Figure Action",
+            "image" : "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRXzVzC5KvSN5AlAcX7fHSDPvu-Pt7N-89_1NoMpnpvNYuniCAMeGF2ERlVDa_8h4AcP2puS9p2ndx9HjJFCDmuy-B9TwWdtMDCA262Ofk&usqp=CAE",
+            "width" : "28cm",
+            "height" : "28cm",
+            "diameter" : "10cm",
+            "producer" : "N/A"
+        },
+        {
+            "id" : "2",
+            "name" : "Yae Miko - Genshin Impact",
+            "price" : 349.90,
+            "category" : "Figure Action",
+            "image" : "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTArPchQvbhjmRvt2TTZfoKShCdMn-57Yv1qrlxpxM02c2WJ9Jyp4q3Mgd_fCayr-XSWq-29wF1-ffEtG8gVtBIRGYgpsPPhFMrQLfg_da8IxhV-Y8BzGeNZw&usqp=CAE",
+            "width" : "25cm",
+            "height" : "25cm",
+            "diameter" : "10cm",
+            "producer" : "Apaffa"
+        }
+    ]
+
+}
